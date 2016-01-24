@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6202799E1C54D3F200A9FFBC /* Screen Shot 2016-01-24 at 2.41.37 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 6202799D1C54D3F200A9FFBC /* Screen Shot 2016-01-24 at 2.41.37 AM.png */; };
+		6222E7F21C53717C00D982CE /* 12583724_10203999407544403_447526318_n.png in Resources */ = {isa = PBXBuildFile; fileRef = 6222E7F11C53717C00D982CE /* 12583724_10203999407544403_447526318_n.png */; };
+		6222E7F31C5375DF00D982CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 627FB8AA1C535C8B000355B7 /* Assets.xcassets */; };
+		6222E7F51C53812D00D982CE /* FEZ-04-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 6222E7F41C53812D00D982CE /* FEZ-04-128.png */; };
+		6222E7F81C5392AA00D982CE /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6222E7F71C5392AA00D982CE /* HealthKit.framework */; };
+		6222E7FA1C5392B300D982CE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6222E7F91C5392B300D982CE /* MapKit.framework */; };
+		624EB7FE1C548347008563FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 624EB7FD1C548347008563FA /* Assets.xcassets */; };
+		624EB8051C548347008563FA /* SafeStrideWearable Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 624EB8041C548347008563FA /* SafeStrideWearable Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		624EB80A1C548347008563FA /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624EB8091C548347008563FA /* InterfaceController.swift */; };
+		624EB80C1C548347008563FA /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624EB80B1C548347008563FA /* ExtensionDelegate.swift */; };
+		624EB80E1C548347008563FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 624EB80D1C548347008563FA /* Assets.xcassets */; };
+		624EB8121C548347008563FA /* SafeStrideWearable.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 624EB7F81C548347008563FA /* SafeStrideWearable.app */; };
+		624EB81E1C548DA3008563FA /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624EB8091C548347008563FA /* InterfaceController.swift */; };
+		624EB8201C548DAF008563FA /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 624EB7FA1C548347008563FA /* Interface.storyboard */; };
+		626924911C542EB2001E5DF0 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626924901C542EB2001E5DF0 /* TestViewController.swift */; };
+		627FB8A41C535C8B000355B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627FB8A31C535C8B000355B7 /* AppDelegate.swift */; };
+		627FB8A61C535C8B000355B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627FB8A51C535C8B000355B7 /* ViewController.swift */; };
+		629C5C4A1C53B2BF007C2785 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 629C5C491C53B2BF007C2785 /* Main.storyboard */; };
+		629C5C4C1C53B6F6007C2785 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 629C5C4B1C53B6F6007C2785 /* Launch Screen.storyboard */; };
+		62B66BBF1C5453A100AE0016 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62B66BBE1C5453A100AE0016 /* CoreLocation.framework */; };
+		62FF5F741C5447110022783F /* icon175x175.png in Resources */ = {isa = PBXBuildFile; fileRef = 62FF5F731C5447110022783F /* icon175x175.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		624EB8061C548347008563FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 627FB8981C535C8B000355B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 624EB8031C548347008563FA;
+			remoteInfo = "SafeStrideWearable Extension";
+		};
+		624EB8101C548347008563FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 627FB8981C535C8B000355B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 624EB7F71C548347008563FA;
+			remoteInfo = SafeStrideWearable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		624EB7F51C5481CF008563FA /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				624EB8121C548347008563FA /* SafeStrideWearable.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		624EB8161C548347008563FA /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				624EB8051C548347008563FA /* SafeStrideWearable Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6202799D1C54D3F200A9FFBC /* Screen Shot 2016-01-24 at 2.41.37 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2016-01-24 at 2.41.37 AM.png"; sourceTree = "<group>"; };
+		6222E7F11C53717C00D982CE /* 12583724_10203999407544403_447526318_n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 12583724_10203999407544403_447526318_n.png; path = ../../../../Desktop/12583724_10203999407544403_447526318_n.png; sourceTree = "<group>"; };
+		6222E7F41C53812D00D982CE /* FEZ-04-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "FEZ-04-128.png"; path = "../../../../Desktop/FEZ-04-128.png"; sourceTree = "<group>"; };
+		6222E7F61C5392A900D982CE /* SafeStride.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = SafeStride.entitlements; sourceTree = "<group>"; };
+		6222E7F71C5392AA00D982CE /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		6222E7F91C5392B300D982CE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		624EB7F81C548347008563FA /* SafeStrideWearable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafeStrideWearable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		624EB7FB1C548347008563FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		624EB7FD1C548347008563FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		624EB7FF1C548347008563FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		624EB8041C548347008563FA /* SafeStrideWearable Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SafeStrideWearable Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		624EB8091C548347008563FA /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		624EB80B1C548347008563FA /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		624EB80D1C548347008563FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		624EB80F1C548347008563FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		624EB81A1C548469008563FA /* SafeStrideWatch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = SafeStrideWatch.entitlements; path = SafeStrideWatch/SafeStrideWatch.entitlements; sourceTree = "<group>"; };
+		624EB81B1C548536008563FA /* SafeStrideWearable.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = SafeStrideWearable.entitlements; sourceTree = "<group>"; };
+		624EB81C1C5487A0008563FA /* SafeStrideWearable Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "SafeStrideWearable Extension.entitlements"; sourceTree = "<group>"; };
+		626924901C542EB2001E5DF0 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		627FB8A01C535C8B000355B7 /* SafeStride.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafeStride.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		627FB8A31C535C8B000355B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		627FB8A51C535C8B000355B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		627FB8AA1C535C8B000355B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		627FB8AF1C535C8B000355B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		629C5C491C53B2BF007C2785 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		629C5C4B1C53B6F6007C2785 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "../Launch Screen.storyboard"; sourceTree = "<group>"; };
+		62B66BBE1C5453A100AE0016 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		62FF5F731C5447110022783F /* icon175x175.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon175x175.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		624EB8011C548347008563FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		627FB89D1C535C8B000355B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62B66BBF1C5453A100AE0016 /* CoreLocation.framework in Frameworks */,
+				6222E7FA1C5392B300D982CE /* MapKit.framework in Frameworks */,
+				6222E7F81C5392AA00D982CE /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		624EB7F91C548347008563FA /* SafeStrideWearable */ = {
+			isa = PBXGroup;
+			children = (
+				624EB81B1C548536008563FA /* SafeStrideWearable.entitlements */,
+				624EB7FA1C548347008563FA /* Interface.storyboard */,
+				624EB7FD1C548347008563FA /* Assets.xcassets */,
+				624EB7FF1C548347008563FA /* Info.plist */,
+			);
+			path = SafeStrideWearable;
+			sourceTree = "<group>";
+		};
+		624EB8081C548347008563FA /* SafeStrideWearable Extension */ = {
+			isa = PBXGroup;
+			children = (
+				624EB81C1C5487A0008563FA /* SafeStrideWearable Extension.entitlements */,
+				624EB8091C548347008563FA /* InterfaceController.swift */,
+				624EB80B1C548347008563FA /* ExtensionDelegate.swift */,
+				624EB80D1C548347008563FA /* Assets.xcassets */,
+				624EB80F1C548347008563FA /* Info.plist */,
+			);
+			path = "SafeStrideWearable Extension";
+			sourceTree = "<group>";
+		};
+		627FB8971C535C8B000355B7 = {
+			isa = PBXGroup;
+			children = (
+				624EB81A1C548469008563FA /* SafeStrideWatch.entitlements */,
+				62B66BBE1C5453A100AE0016 /* CoreLocation.framework */,
+				6222E7F91C5392B300D982CE /* MapKit.framework */,
+				6222E7F71C5392AA00D982CE /* HealthKit.framework */,
+				627FB8A21C535C8B000355B7 /* SafeStride */,
+				624EB7F91C548347008563FA /* SafeStrideWearable */,
+				624EB8081C548347008563FA /* SafeStrideWearable Extension */,
+				627FB8A11C535C8B000355B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		627FB8A11C535C8B000355B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				627FB8A01C535C8B000355B7 /* SafeStride.app */,
+				624EB7F81C548347008563FA /* SafeStrideWearable.app */,
+				624EB8041C548347008563FA /* SafeStrideWearable Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		627FB8A21C535C8B000355B7 /* SafeStride */ = {
+			isa = PBXGroup;
+			children = (
+				6222E7F61C5392A900D982CE /* SafeStride.entitlements */,
+				627FB8A31C535C8B000355B7 /* AppDelegate.swift */,
+				627FB8A51C535C8B000355B7 /* ViewController.swift */,
+				627FB8AA1C535C8B000355B7 /* Assets.xcassets */,
+				629C5C4B1C53B6F6007C2785 /* Launch Screen.storyboard */,
+				629C5C491C53B2BF007C2785 /* Main.storyboard */,
+				627FB8AF1C535C8B000355B7 /* Info.plist */,
+				6222E7F11C53717C00D982CE /* 12583724_10203999407544403_447526318_n.png */,
+				6222E7F41C53812D00D982CE /* FEZ-04-128.png */,
+				626924901C542EB2001E5DF0 /* TestViewController.swift */,
+				62FF5F731C5447110022783F /* icon175x175.png */,
+				6202799D1C54D3F200A9FFBC /* Screen Shot 2016-01-24 at 2.41.37 AM.png */,
+			);
+			path = SafeStride;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		624EB7F71C548347008563FA /* SafeStrideWearable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 624EB8171C548347008563FA /* Build configuration list for PBXNativeTarget "SafeStrideWearable" */;
+			buildPhases = (
+				624EB7F61C548347008563FA /* Resources */,
+				624EB8161C548347008563FA /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				624EB8071C548347008563FA /* PBXTargetDependency */,
+			);
+			name = SafeStrideWearable;
+			productName = SafeStrideWearable;
+			productReference = 624EB7F81C548347008563FA /* SafeStrideWearable.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		624EB8031C548347008563FA /* SafeStrideWearable Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 624EB8131C548347008563FA /* Build configuration list for PBXNativeTarget "SafeStrideWearable Extension" */;
+			buildPhases = (
+				624EB8001C548347008563FA /* Sources */,
+				624EB8011C548347008563FA /* Frameworks */,
+				624EB8021C548347008563FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SafeStrideWearable Extension";
+			productName = "SafeStrideWearable Extension";
+			productReference = 624EB8041C548347008563FA /* SafeStrideWearable Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		627FB89F1C535C8B000355B7 /* SafeStride */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 627FB8B21C535C8B000355B7 /* Build configuration list for PBXNativeTarget "SafeStride" */;
+			buildPhases = (
+				627FB89C1C535C8B000355B7 /* Sources */,
+				627FB89D1C535C8B000355B7 /* Frameworks */,
+				627FB89E1C535C8B000355B7 /* Resources */,
+				624EB7F51C5481CF008563FA /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				624EB8111C548347008563FA /* PBXTargetDependency */,
+			);
+			name = SafeStride;
+			productName = SafeStride;
+			productReference = 627FB8A01C535C8B000355B7 /* SafeStride.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		627FB8981C535C8B000355B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "HCS Group";
+				TargetAttributes = {
+					624EB7F71C548347008563FA = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = Z9S7S792FK;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					624EB8031C548347008563FA = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = Z9S7S792FK;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					627FB89F1C535C8B000355B7 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = Z9S7S792FK;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 627FB89B1C535C8B000355B7 /* Build configuration list for PBXProject "SafeStride" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 627FB8971C535C8B000355B7;
+			productRefGroup = 627FB8A11C535C8B000355B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				627FB89F1C535C8B000355B7 /* SafeStride */,
+				624EB7F71C548347008563FA /* SafeStrideWearable */,
+				624EB8031C548347008563FA /* SafeStrideWearable Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		624EB7F61C548347008563FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				624EB8201C548DAF008563FA /* Interface.storyboard in Resources */,
+				624EB7FE1C548347008563FA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		624EB8021C548347008563FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				624EB80E1C548347008563FA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		627FB89E1C535C8B000355B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6222E7F21C53717C00D982CE /* 12583724_10203999407544403_447526318_n.png in Resources */,
+				6222E7F31C5375DF00D982CE /* Assets.xcassets in Resources */,
+				629C5C4A1C53B2BF007C2785 /* Main.storyboard in Resources */,
+				6202799E1C54D3F200A9FFBC /* Screen Shot 2016-01-24 at 2.41.37 AM.png in Resources */,
+				62FF5F741C5447110022783F /* icon175x175.png in Resources */,
+				6222E7F51C53812D00D982CE /* FEZ-04-128.png in Resources */,
+				629C5C4C1C53B6F6007C2785 /* Launch Screen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		624EB8001C548347008563FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				624EB80C1C548347008563FA /* ExtensionDelegate.swift in Sources */,
+				624EB80A1C548347008563FA /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		627FB89C1C535C8B000355B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				627FB8A61C535C8B000355B7 /* ViewController.swift in Sources */,
+				624EB81E1C548DA3008563FA /* InterfaceController.swift in Sources */,
+				626924911C542EB2001E5DF0 /* TestViewController.swift in Sources */,
+				627FB8A41C535C8B000355B7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		624EB8071C548347008563FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 624EB8031C548347008563FA /* SafeStrideWearable Extension */;
+			targetProxy = 624EB8061C548347008563FA /* PBXContainerItemProxy */;
+		};
+		624EB8111C548347008563FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 624EB7F71C548347008563FA /* SafeStrideWearable */;
+			targetProxy = 624EB8101C548347008563FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		624EB7FA1C548347008563FA /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				624EB7FB1C548347008563FA /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		624EB8141C548347008563FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "SafeStrideWearable Extension/SafeStrideWearable Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "SafeStrideWearable Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HCS.SafeStride.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos2.1;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		624EB8151C548347008563FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "SafeStrideWearable Extension/SafeStrideWearable Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "SafeStrideWearable Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HCS.SafeStride.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos2.1;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		624EB8181C548347008563FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SafeStrideWearable/SafeStrideWearable.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = SafeStrideWearable_Extension;
+				INFOPLIST_FILE = SafeStrideWearable/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HCS.SafeStride.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		624EB8191C548347008563FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SafeStrideWearable/SafeStrideWearable.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = SafeStrideWearable_Extension;
+				INFOPLIST_FILE = SafeStrideWearable/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HCS.SafeStride.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		627FB8B01C535C8B000355B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		627FB8B11C535C8B000355B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		627FB8B31C535C8B000355B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SafeStride/SafeStride.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = SafeStride/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HCS.SafeStride;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		627FB8B41C535C8B000355B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SafeStride/SafeStride.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = SafeStride/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HCS.SafeStride;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		624EB8131C548347008563FA /* Build configuration list for PBXNativeTarget "SafeStrideWearable Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				624EB8141C548347008563FA /* Debug */,
+				624EB8151C548347008563FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		624EB8171C548347008563FA /* Build configuration list for PBXNativeTarget "SafeStrideWearable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				624EB8181C548347008563FA /* Debug */,
+				624EB8191C548347008563FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		627FB89B1C535C8B000355B7 /* Build configuration list for PBXProject "SafeStride" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				627FB8B01C535C8B000355B7 /* Debug */,
+				627FB8B11C535C8B000355B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		627FB8B21C535C8B000355B7 /* Build configuration list for PBXNativeTarget "SafeStride" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				627FB8B31C535C8B000355B7 /* Debug */,
+				627FB8B41C535C8B000355B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 627FB8981C535C8B000355B7 /* Project object */;
+}

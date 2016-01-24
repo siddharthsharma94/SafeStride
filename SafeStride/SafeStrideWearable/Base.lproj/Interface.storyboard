@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="9531" systemVersion="15D13b" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="1dM-GI-MrV">
+    <dependencies>
+        <deployment version="512" identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="9515"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="JmT-2n-JxD">
+            <objects>
+                <controller id="1dM-GI-MrV" customClass="InterfaceController" customModule="SafeStrideWearable" customModuleProvider="target">
+                    <items>
+                        <label width="136" alignment="left" text="SafeStride: Enabled" id="wAd-EH-3o1">
+                            <color key="textColor" red="0.5264849654932684" green="1" blue="0.1683416628095914" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                        </label>
+                        <button width="1" alignment="left" verticalAlignment="bottom" title="Call 911" id="FLw-dU-H9O">
+                            <color key="titleColor" red="0.97114632180000005" green="1" blue="0.9581960719" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="backgroundColor" red="1" green="0.13569142585786553" blue="0.095449287932086402" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" type="system" weight="heavy" pointSize="15"/>
+                            <connections>
+                                <action selector="callEmergency" destination="1dM-GI-MrV" id="kyv-fo-qXX"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" verticalAlignment="bottom" title="Call Contact" id="vsj-RC-2mW">
+                            <color key="titleColor" red="0.97114632180000005" green="1" blue="0.9581960719" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="backgroundColor" red="0.13705135985327888" green="0.2097417777906897" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" type="system" weight="heavy" pointSize="15"/>
+                            <connections>
+                                <action selector="callEmergency" destination="1dM-GI-MrV" id="tvE-S3-X36"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" verticalAlignment="bottom" title="Send Location" id="3iz-NM-R25">
+                            <color key="backgroundColor" red="1" green="0.7332818298048327" blue="0.22539840166636871" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" type="system" weight="heavy" pointSize="15"/>
+                            <connections>
+                                <action selector="sendLocation" destination="1dM-GI-MrV" id="ZY8-f9-A4r"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="358" y="400"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="VEz-SM-HgA">
+            <objects>
+                <controller id="Fve-o3-ywR">
+                    <items>
+                        <button width="1" alignment="left" title="MeasureHeart" id="Xj7-H0-MIg"/>
+                        <label width="136" height="43.5" alignment="left" text="Label" id="ir7-MM-ndw"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="358" y="639"/>
+        </scene>
+    </scenes>
+</document>
